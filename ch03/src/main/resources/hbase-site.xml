@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+ <!--<property>  
+        <name>hbase.master</name>  
+        <value>cloudera:60030</value>  
+</property>  -->
+<property>
+<name>hbase.zookeeper.quorum</name>
+<value>192.168.0.150</value>
+</property>
+</configuration>
